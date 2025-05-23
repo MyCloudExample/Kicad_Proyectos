@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rp2040-zero")(type "KiCad")(uri "C:/Users/nahue/Downloads/RP2040-Zero-Kicad-main/RP2040-Zero-Kicad-main/rp2040-zero.kicad_sym")(options "")(descr ""))
+)
