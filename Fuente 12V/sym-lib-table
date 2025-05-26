@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Fuente-12V-rescue)(type Legacy)(uri "${KIPRJMOD}/Fuente 12V-rescue.lib")(options "")(descr ""))
+)

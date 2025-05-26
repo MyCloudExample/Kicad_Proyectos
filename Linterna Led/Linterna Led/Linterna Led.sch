@@ -1,0 +1,114 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5BC1FEDA
+P 3200 2200
+F 0 "R1" V 2993 2200 50  0000 C CNN
+F 1 "220" V 3084 2200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 3130 2200 50  0001 C CNN
+F 3 "~" H 3200 2200 50  0001 C CNN
+	1    3200 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5BC20006
+P 2950 2600
+F 0 "D1" V 2750 2550 50  0000 L CNN
+F 1 " " V 2986 2678 50  0000 L CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 2950 2600 50  0001 C CNN
+F 3 "~" H 2950 2600 50  0001 C CNN
+	1    2950 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5BC2017D
+P 3150 2600
+F 0 "D2" V 2950 2550 50  0000 L CNN
+F 1 " " V 3186 2678 50  0000 L CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 3150 2600 50  0001 C CNN
+F 3 "~" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5BC201A3
+P 3350 2600
+F 0 "D3" V 3150 2550 50  0000 L CNN
+F 1 " " V 3386 2678 50  0000 L CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 3350 2600 50  0001 C CNN
+F 3 "~" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5BC201BF
+P 3500 2600
+F 0 "D4" V 3300 2550 50  0000 L CNN
+F 1 " " V 3536 2678 50  0000 L CNN
+F 2 "LEDs:LED_D5.0mm_FlatTop" H 3500 2600 50  0001 C CNN
+F 3 "~" H 3500 2600 50  0001 C CNN
+	1    3500 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 9V1
+U 1 1 5BC20550
+P 2500 2450
+F 0 "9V1" H 2600 2400 50  0000 C CNN
+F 1 " " H 2420 2216 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 2500 2450 50  0001 C CNN
+F 3 "~" H 2500 2450 50  0001 C CNN
+	1    2500 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2350 2700 2200
+Wire Wire Line
+	2700 2200 3050 2200
+Wire Wire Line
+	3350 2200 3600 2200
+Wire Wire Line
+	3600 2200 3600 2450
+Wire Wire Line
+	3600 2450 3500 2450
+Wire Wire Line
+	3500 2450 3350 2450
+Connection ~ 3500 2450
+Wire Wire Line
+	3350 2450 3150 2450
+Connection ~ 3350 2450
+Wire Wire Line
+	3150 2450 2950 2450
+Connection ~ 3150 2450
+Wire Wire Line
+	2700 2450 2700 2750
+Wire Wire Line
+	2700 2750 2950 2750
+Wire Wire Line
+	2950 2750 3150 2750
+Connection ~ 2950 2750
+Wire Wire Line
+	3150 2750 3350 2750
+Connection ~ 3150 2750
+Wire Wire Line
+	3350 2750 3500 2750
+Connection ~ 3350 2750
+$EndSCHEMATC

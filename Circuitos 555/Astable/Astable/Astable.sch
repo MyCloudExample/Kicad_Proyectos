@@ -1,0 +1,214 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:LM555 U1
+U 1 1 5CA40438
+P 5650 2300
+F 0 "U1" H 5650 2350 50  0000 C CNN
+F 1 "LM555" H 5650 2250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5650 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5650 2300 50  0001 C CNN
+	1    5650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CA40568
+P 6650 2000
+F 0 "R2" H 6720 2046 50  0000 L CNN
+F 1 "R" H 6720 1955 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6580 2000 50  0001 C CNN
+F 3 "~" H 6650 2000 50  0001 C CNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5CA405E9
+P 5200 2750
+F 0 "C1" V 4948 2750 50  0000 C CNN
+F 1 "C" V 5039 2750 50  0000 C CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5238 2600 50  0001 C CNN
+F 3 "~" H 5200 2750 50  0001 C CNN
+	1    5200 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CA40652
+P 6400 2300
+F 0 "R1" V 6193 2300 50  0000 C CNN
+F 1 "R" V 6284 2300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6330 2300 50  0001 C CNN
+F 3 "~" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CA4067E
+P 6400 2750
+F 0 "C2" V 6148 2750 50  0000 C CNN
+F 1 "C" V 6239 2750 50  0000 C CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6438 2600 50  0001 C CNN
+F 3 "~" H 6400 2750 50  0001 C CNN
+	1    6400 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5CA406F2
+P 5650 1600
+F 0 "#PWR03" H 5650 1450 50  0001 C CNN
+F 1 "VCC" H 5667 1773 50  0000 C CNN
+F 2 "" H 5650 1600 50  0001 C CNN
+F 3 "" H 5650 1600 50  0001 C CNN
+	1    5650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR04
+U 1 1 5CA4074D
+P 5650 2950
+F 0 "#PWR04" H 5650 2700 50  0001 C CNN
+F 1 "GNDREF" H 5655 2777 50  0000 C CNN
+F 2 "" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0001 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1900 5650 1750
+Wire Wire Line
+	5650 1750 4950 1750
+Wire Wire Line
+	4950 1750 4950 2500
+Wire Wire Line
+	4950 2500 5150 2500
+Wire Wire Line
+	5150 2100 4800 2100
+Wire Wire Line
+	4800 2100 4800 2850
+Wire Wire Line
+	6550 2300 6650 2300
+Wire Wire Line
+	6650 2300 6650 2500
+Wire Wire Line
+	4800 2850 6650 2850
+Wire Wire Line
+	6150 2300 6250 2300
+Wire Wire Line
+	6150 2500 6650 2500
+Connection ~ 6650 2500
+Wire Wire Line
+	6650 2500 6650 2750
+Wire Wire Line
+	6650 2150 6650 2300
+Connection ~ 6650 2300
+Wire Wire Line
+	6650 1850 6650 1750
+Wire Wire Line
+	6650 1750 5650 1750
+Connection ~ 5650 1750
+Wire Wire Line
+	5650 1600 5650 1750
+Wire Wire Line
+	6250 2750 5650 2750
+Wire Wire Line
+	5650 2750 5650 2700
+Wire Wire Line
+	6550 2750 6650 2750
+Connection ~ 6650 2750
+Wire Wire Line
+	6650 2750 6650 2850
+Wire Wire Line
+	5350 2750 5650 2750
+Connection ~ 5650 2750
+Wire Wire Line
+	5050 2750 4900 2750
+Wire Wire Line
+	4900 2750 4900 2300
+Wire Wire Line
+	4900 2300 5150 2300
+Wire Wire Line
+	5650 2950 5650 2750
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5CA417BA
+P 6300 1450
+F 0 "J2" V 6266 1362 50  0000 R CNN
+F 1 "Conn_01x01" V 6175 1362 50  0000 R CNN
+F 2 "Connectors:1pin" H 6300 1450 50  0001 C CNN
+F 3 "~" H 6300 1450 50  0001 C CNN
+	1    6300 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5CA41888
+P 4300 1500
+F 0 "J1" H 4220 1175 50  0000 C CNN
+F 1 "Conn_01x02" H 4220 1266 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 4300 1500 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 1650
+$Comp
+L power:VCC #PWR01
+U 1 1 5CA41BDB
+P 4700 1350
+F 0 "#PWR01" H 4700 1200 50  0001 C CNN
+F 1 "VCC" H 4717 1523 50  0000 C CNN
+F 2 "" H 4700 1350 50  0001 C CNN
+F 3 "" H 4700 1350 50  0001 C CNN
+	1    4700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR02
+U 1 1 5CA41C10
+P 4700 1550
+F 0 "#PWR02" H 4700 1300 50  0001 C CNN
+F 1 "GNDREF" H 4705 1377 50  0000 C CNN
+F 2 "" H 4700 1550 50  0001 C CNN
+F 3 "" H 4700 1550 50  0001 C CNN
+	1    4700 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1500 4700 1500
+Wire Wire Line
+	4700 1500 4700 1550
+Wire Wire Line
+	4700 1350 4700 1400
+Wire Wire Line
+	4700 1400 4500 1400
+Wire Notes Line
+	3950 1000 7150 1000
+Wire Notes Line
+	7150 1000 7150 3250
+Wire Notes Line
+	7150 3250 3950 3250
+Wire Notes Line
+	3950 3250 3950 1000
+Text Notes 4650 950  0    79   ~ 16
+CIRCUITO ASTABLE CON 555
+$EndSCHEMATC
