@@ -4015,12 +4015,6 @@
 		(uuid "251c07f3-2ff0-42b0-8966-3c1a53fcc79d")
 	)
 	(junction
-		(at 238.76 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3be493b0-b68e-4485-8658-bf24ff6a23f4")
-	)
-	(junction
 		(at 41.275 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4239,16 +4233,6 @@
 			(type default)
 		)
 		(uuid "054754db-c7d6-4a1c-9b7b-f4319149fb87")
-	)
-	(wire
-		(pts
-			(xy 238.76 127.635) (xy 238.76 131.445)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05fd5374-2be5-487c-a496-b7321e7a593d")
 	)
 	(wire
 		(pts
@@ -5022,7 +5006,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 90.17) (xy 257.81 90.17)
+			(xy 236.22 90.17) (xy 257.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5129,16 +5113,6 @@
 			(type default)
 		)
 		(uuid "9ba5fd7e-c14a-46e4-8780-e32c2c15a17f")
-	)
-	(wire
-		(pts
-			(xy 236.22 90.17) (xy 238.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cb6af63-ed90-4c4b-992b-fd5aa785b527")
 	)
 	(wire
 		(pts
@@ -5379,16 +5353,6 @@
 			(type default)
 		)
 		(uuid "c29ffa90-af5d-46c2-ab61-6195fb0dff06")
-	)
-	(wire
-		(pts
-			(xy 238.76 90.17) (xy 238.76 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c304dcad-8275-43ee-b317-98a3ee20f216")
 	)
 	(wire
 		(pts
@@ -5827,8 +5791,8 @@
 		(uuid 554e0e9b-5d59-434e-ad38-4b9ec57a90c5)
 	)
 	(rectangle
-		(start 227.965 85.09)
-		(end 277.495 142.24)
+		(start 220.345 85.09)
+		(end 277.495 113.03)
 		(stroke
 			(width 0)
 			(type default)
@@ -5891,7 +5855,7 @@
 		)
 		(uuid "4da42849-9aa0-4f31-815d-5cb7faa1429c")
 	)
-	(text "TECLADO 4x4\n"
+	(text "PINES DE USO GENERAL Y TECLADO 4x4\n"
 		(exclude_from_sim no)
 		(at 252.095 84.455 0)
 		(effects
@@ -5985,7 +5949,7 @@
 			)
 		)
 	)
-	(global_label "C1"
+	(global_label "C1{slash}GPIO18"
 		(shape input)
 		(at 236.22 100.33 180)
 		(fields_autoplaced yes)
@@ -5997,7 +5961,7 @@
 		)
 		(uuid "12ccdf53-c910-4c9a-9582-f55111b2b5f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.7553 100.33 0)
+			(at 222.5305 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6015,7 @@
 			)
 		)
 	)
-	(global_label "SCK{slash}GPIO2"
+	(global_label "GPIO2{slash}RX"
 		(shape input)
 		(at 34.925 99.695 180)
 		(fields_autoplaced yes)
@@ -6063,7 +6027,7 @@
 		)
 		(uuid "22d7b7a5-1999-42bb-a3b1-33a18b610255")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.175 99.695 0)
+			(at 22.445 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6059,7 @@
 			)
 		)
 	)
-	(global_label "CSn{slash}GPIO5"
+	(global_label "GPIO5"
 		(shape input)
 		(at 34.925 107.315 180)
 		(fields_autoplaced yes)
@@ -6107,7 +6071,7 @@
 		)
 		(uuid "28507103-e62d-4f59-b8e4-2264accfd3d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.296 107.315 0)
+			(at 26.255 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6213,7 @@
 			)
 		)
 	)
-	(global_label "F4"
+	(global_label "F4{slash}GPIO17"
 		(shape input)
 		(at 236.22 97.79 180)
 		(fields_autoplaced yes)
@@ -6261,7 +6225,7 @@
 		)
 		(uuid "40e32449-8cc1-419c-9b37-3b38b1c0b6d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9367 97.79 0)
+			(at 222.7119 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,28 +6270,6 @@
 		(uuid "4a27c082-dc62-44c2-8c99-6afc48415d89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.9022 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 238.76 131.445 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50a173ed-2274-4048-ac68-aa905d347223")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.76 138.5426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6367,7 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
+	(global_label "GPIO1{slash}TX"
 		(shape input)
 		(at 34.925 97.155 180)
 		(fields_autoplaced yes)
@@ -6437,7 +6379,7 @@
 		)
 		(uuid "5954b420-859c-4938-a8cb-c0f6dd6d6af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.255 97.155 0)
+			(at 22.7474 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6411,7 @@
 			)
 		)
 	)
-	(global_label "RX{slash}GPIO4"
+	(global_label "GPIO4"
 		(shape input)
 		(at 34.925 104.775 180)
 		(fields_autoplaced yes)
@@ -6481,7 +6423,7 @@
 		)
 		(uuid "5a309d9e-794b-4b55-ad1c-c34adeb09171")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.445 104.775 0)
+			(at 26.255 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6433,7 @@
 			)
 		)
 	)
-	(global_label "F1"
+	(global_label "F1{slash}GPIO14"
 		(shape input)
 		(at 236.22 90.17 180)
 		(fields_autoplaced yes)
@@ -6503,7 +6445,7 @@
 		)
 		(uuid "5a348afc-e816-4a09-acdf-1b5ed5b2093e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9367 90.17 0)
+			(at 222.7119 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6609,7 @@
 			)
 		)
 	)
-	(global_label "C2"
+	(global_label "C2{slash}GPIO19"
 		(shape input)
 		(at 236.22 102.87 180)
 		(fields_autoplaced yes)
@@ -6679,7 +6621,7 @@
 		)
 		(uuid "6b51c8dc-5f37-4a5e-9d22-323e4feb7d3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.7553 102.87 0)
+			(at 222.5305 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +6741,7 @@
 			)
 		)
 	)
-	(global_label "C3"
+	(global_label "C3{slash}GPIO20"
 		(shape input)
 		(at 236.22 105.41 180)
 		(fields_autoplaced yes)
@@ -6811,7 +6753,7 @@
 		)
 		(uuid "7f3ea160-35af-4795-ba8f-8b7b1e868b55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.7553 105.41 0)
+			(at 222.5305 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +6961,7 @@
 			)
 		)
 	)
-	(global_label "C4"
+	(global_label "C4{slash}GPIO21"
 		(shape input)
 		(at 236.22 107.95 180)
 		(fields_autoplaced yes)
@@ -7031,7 +6973,7 @@
 		)
 		(uuid "ac023fc0-694d-47cf-b2e9-c5b90e8ef328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.7553 107.95 0)
+			(at 222.5305 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7071,7 @@
 			)
 		)
 	)
-	(global_label "TX{slash}GPIO3"
+	(global_label "GPIO3{slash}CSn"
 		(shape input)
 		(at 34.925 102.235 180)
 		(fields_autoplaced yes)
@@ -7141,7 +7083,7 @@
 		)
 		(uuid "c9a4254e-a64d-43b4-a053-51889dfbe6c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7474 102.235 0)
+			(at 21.296 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7093,7 @@
 			)
 		)
 	)
-	(global_label "F3"
+	(global_label "F3{slash}GPIO16"
 		(shape input)
 		(at 236.22 95.25 180)
 		(fields_autoplaced yes)
@@ -7163,7 +7105,7 @@
 		)
 		(uuid "d2e0a071-fbb0-491c-bef7-152ce50f5e11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9367 95.25 0)
+			(at 222.7119 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7159,7 @@
 			)
 		)
 	)
-	(global_label "F2"
+	(global_label "F2{slash}GPIO15"
 		(shape input)
 		(at 236.22 92.71 180)
 		(fields_autoplaced yes)
@@ -7229,7 +7171,7 @@
 		)
 		(uuid "e5ac5931-80d8-4364-a974-aedaaa901d55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9367 92.71 0)
+			(at 222.7119 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7269,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
+	(global_label "GPIO0{slash}SCK"
 		(shape input)
 		(at 34.925 94.615 180)
 		(fields_autoplaced yes)
@@ -7339,7 +7281,7 @@
 		)
 		(uuid "f251869d-6a3d-4590-8bb0-6c785062f890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.255 94.615 0)
+			(at 21.175 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,77 +7921,6 @@
 			(project "Placa_de_Desarrollo"
 				(path "/fcc0771d-888f-40a3-a42c-2cc7ec6c456b"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 238.76 122.555 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30982ff1-1403-4b80-bf9a-487618d3530f")
-		(property "Reference" "SW2"
-			(at 231.14 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RESET"
-			(at 240.665 122.5549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 238.76 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3b49982-65fe-488b-9cb0-9c1be2f5592f")
-		)
-		(pin "2"
-			(uuid "b761bc0e-835f-4e2d-9d3e-db26a2db1ed0")
-		)
-		(instances
-			(project "Placa_de_Desarrollo"
-				(path "/fcc0771d-888f-40a3-a42c-2cc7ec6c456b"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
