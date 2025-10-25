@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Control de Acceso-rescue")(type "KiCad")(uri "${KIPRJMOD}/Control de Acceso-rescue.kicad_sym")(options "")(descr ""))
+)

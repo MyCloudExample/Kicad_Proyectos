@@ -34,17 +34,15 @@
       3,
       4,
       5,
-      6,
-      7,
       8,
       9,
       10,
       11,
       12,
       13,
-      14,
       15,
       16,
+      17,
       18,
       19,
       20,
@@ -66,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffdffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -76,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Fuente 12V.kicad_prl",
+    "filename": "Control de Acceso.kicad_prl",
     "version": 3
   },
   "project": {

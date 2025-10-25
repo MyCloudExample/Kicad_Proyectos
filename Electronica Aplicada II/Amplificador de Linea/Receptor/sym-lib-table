@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Receptor-rescue")(type "KiCad")(uri "${KIPRJMOD}/Receptor-rescue.kicad_sym")(options "")(descr ""))
+)

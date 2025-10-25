@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 3.0,
-          "width": 1.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -125,8 +125,6 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -175,13 +173,12 @@
       ],
       "track_widths": [
         0.0,
-        0.5,
-        0.6,
         0.8,
         1.0,
-        1.2,
+        1.3,
         1.4,
         1.5,
+        1.8,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -210,20 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 2.0,
-          "drill": 1.0
-        },
-        {
-          "diameter": 2.5,
-          "drill": 1.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -456,7 +440,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Fuente 12V.kicad_pro",
+    "filename": "Receptor.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -474,7 +458,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       }
@@ -487,39 +471,39 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "Earth"
+        "pattern": "GNDREF"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(C1-Pad1)"
+        "pattern": "Net-(Entrada1-Pad2)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(C3-Pad2)"
+        "pattern": "Net-(Entrada1-Pad3)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(C5-Pad1)"
+        "pattern": "Net-(R11-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(C8-Pad2)"
+        "pattern": "Net-(R12-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D1-Pad2)"
+        "pattern": "Net-(R8-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D2-Pad1)"
+        "pattern": "Net-(R9-Pad1)"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(PUENTE1-Pad2)"
+        "pattern": "VDD"
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(PUENTE1-Pad4)"
+        "pattern": "VSS"
       }
     ]
   },
@@ -601,7 +585,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 60.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -637,7 +621,7 @@
   },
   "sheets": [
     [
-      "39fa3e1d-3f78-43e8-8cc4-db62b433fb12",
+      "c910ff6f-0ec2-4d9f-94b1-949e15377bd2",
       "Root"
     ]
   ],
