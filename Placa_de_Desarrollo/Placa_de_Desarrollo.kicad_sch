@@ -6417,7 +6417,7 @@
 			)
 		)
 	)
-	(global_label "SDA1"
+	(global_label "SCL1"
 		(shape bidirectional)
 		(at 29.21 72.39 180)
 		(fields_autoplaced yes)
@@ -6429,7 +6429,7 @@
 		)
 		(uuid "7b953c0c-230d-4172-8321-da194b30a7d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.3359 72.39 0)
+			(at 20.3964 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6505,7 @@
 			)
 		)
 	)
-	(global_label "SCL1"
+	(global_label "SDA1"
 		(shape bidirectional)
 		(at 29.21 74.93 180)
 		(fields_autoplaced yes)
@@ -6517,7 +6517,7 @@
 		)
 		(uuid "7f4b7b6a-6ac3-45f5-ac07-57e711beb676")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.3964 74.93 0)
+			(at 20.3359 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6571,7 @@
 			)
 		)
 	)
-	(global_label "SDA0"
+	(global_label "SCL0"
 		(shape bidirectional)
 		(at 29.21 46.99 180)
 		(fields_autoplaced yes)
@@ -6583,7 +6583,7 @@
 		)
 		(uuid "9b8c1e39-8f2b-4547-81ae-5ca28e32a748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.3359 46.99 0)
+			(at 20.3964 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +7033,7 @@
 			)
 		)
 	)
-	(global_label "SCL0"
+	(global_label "SDA0"
 		(shape bidirectional)
 		(at 29.21 49.53 180)
 		(fields_autoplaced yes)
@@ -7045,7 +7045,7 @@
 		)
 		(uuid "f0bff1bd-cafe-4b5e-84b7-444c6fee45cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.3964 49.53 0)
+			(at 20.3359 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 224.79 58.42 0)
 			(effects
 				(font
@@ -7203,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 66.04 170.688 90)
 			(effects
 				(font
@@ -7405,7 +7405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 40.64 111.76 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 			(at 161.29 173.99 0)
 			(effects
 				(font
@@ -7575,7 +7575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 53.34 31.242 90)
 			(effects
 				(font
@@ -7645,7 +7645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical"
 			(at 59.69 176.53 0)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -7794,7 +7794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 50.292 101.6 90)
 			(effects
 				(font
@@ -7930,7 +7930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_ProSignal_ABI-009-RC"
 			(at 264.795 130.81 90)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 38.862 101.6 90)
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 85.09 176.53 0)
 			(effects
 				(font
@@ -8396,7 +8396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105133-0031"
 			(at 33.02 161.29 0)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 29.21 111.76 0)
 			(effects
 				(font
@@ -8683,7 +8683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 53.34 35.052 90)
 			(effects
 				(font
@@ -8752,7 +8752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -8823,7 +8823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 265.43 97.79 0)
 			(effects
 				(font
@@ -8911,7 +8911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 52.07 111.76 0)
 			(effects
 				(font
@@ -8979,7 +8979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 255.27 132.588 90)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 41.91 33.02 0)
 			(effects
 				(font
@@ -9119,7 +9119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -9189,7 +9189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 83.312 165.1 90)
 			(effects
 				(font
@@ -9259,7 +9259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 98.7552 172.72 0)
 			(effects
 				(font
@@ -9329,7 +9329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 27.432 101.6 90)
 			(effects
 				(font
@@ -9534,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 53.34 60.452 90)
 			(effects
 				(font
@@ -9741,7 +9741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 262.89 58.42 0)
 			(effects
 				(font
@@ -9820,7 +9820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 41.91 36.83 0)
 			(effects
 				(font
@@ -9890,7 +9890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 50.8 69.85 0)
 			(effects
 				(font
@@ -9968,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 53.34 56.642 90)
 			(effects
 				(font
@@ -10037,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 243.84 58.42 0)
 			(effects
 				(font
@@ -10116,7 +10116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 46.6852 172.72 0)
 			(effects
 				(font
@@ -10186,7 +10186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 41.91 58.42 0)
 			(effects
 				(font
