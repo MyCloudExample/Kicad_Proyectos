@@ -37,29 +37,25 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "45_degree_only": false,
+          "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -76,7 +72,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -92,7 +88,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -111,13 +107,18 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.025,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -127,9 +128,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -178,9 +179,7 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
-        0.5,
-        1.5
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -208,21 +207,9 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 1.0,
-          "drill": 2.0
-        },
-        {
-          "diameter": 1.5,
-          "drill": 2.0
-        }
-      ],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
     },
     "ipc2581": {
       "dist": "",
@@ -416,6 +403,7 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -454,7 +442,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Placa_de_Desarrollo.kicad_pro",
+    "filename": "Test.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,9 +459,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -488,10 +476,10 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "Test.net",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "../../../../Placa_de_Desarrollo.dsn",
+      "specctra_dsn": "",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -549,23 +537,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -582,31 +558,33 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Pcbnew",
     "ngspice": {
       "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
-      "model_mode": 4,
+      "model_mode": 0,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -618,7 +596,7 @@
   },
   "sheets": [
     [
-      "fcc0771d-888f-40a3-a42c-2cc7ec6c456b",
+      "fa1c3e0e-91b1-4532-8b22-6d396d71c75b",
       "Root"
     ]
   ],
