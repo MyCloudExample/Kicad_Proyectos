@@ -3662,6 +3662,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 85.09 80.01)
@@ -3820,6 +3916,12 @@
 		(uuid "64ccc18e-9022-4e88-a316-c583aaed77f2")
 	)
 	(junction
+		(at 146.05 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7849f09f-073f-48e0-8f92-15e5d2514a76")
+	)
+	(junction
 		(at 260.35 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3848,6 +3950,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9451b82c-dd13-4257-b79f-4ff3017fcc1e")
+	)
+	(junction
+		(at 172.72 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "945dd364-bd99-4289-95be-241069ff95dd")
 	)
 	(junction
 		(at 195.58 29.21)
@@ -4973,7 +5081,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 146.05 71.12)
+			(xy 146.05 85.09) (xy 146.05 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5460,6 +5568,16 @@
 			(type default)
 		)
 		(uuid "8f666544-1343-4658-9eaf-3dabad294e5e")
+	)
+	(wire
+		(pts
+			(xy 172.72 92.71) (xy 175.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902cdc5a-3632-4852-98ad-4730ddf1059a")
 	)
 	(wire
 		(pts
@@ -6013,6 +6131,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 77.47) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce45b942-a544-42b6-b96a-166fe90e13ad")
+	)
+	(wire
+		(pts
 			(xy 114.3 82.55) (xy 111.76 82.55)
 		)
 		(stroke
@@ -6103,6 +6231,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 77.47) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d5cc57-1794-4f74-879f-9b755b8969f0")
+	)
+	(wire
+		(pts
 			(xy 209.55 92.71) (xy 215.9 92.71)
 		)
 		(stroke
@@ -6123,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 175.26 92.71)
+			(xy 167.64 92.71) (xy 172.72 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6150,6 +6288,16 @@
 			(type default)
 		)
 		(uuid "e29d68fe-418b-42d8-8936-561097c5251a")
+	)
+	(wire
+		(pts
+			(xy 172.72 90.17) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e470bc72-3e1e-45e1-be38-575153365e31")
 	)
 	(wire
 		(pts
@@ -6461,7 +6609,7 @@
 	)
 	(rectangle
 		(start 182.88 62.865)
-		(end 284.48 127.635)
+		(end 285.115 127.635)
 		(stroke
 			(width 0)
 			(type default)
@@ -6742,7 +6890,7 @@
 		)
 	)
 	(global_label "GPIO18"
-		(shape passive)
+		(shape bidirectional)
 		(at 245.11 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6753,7 +6901,7 @@
 		)
 		(uuid "12ccdf53-c910-4c9a-9582-f55111b2b5f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3418 115.57 0)
+			(at 234.1192 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +6978,7 @@
 		)
 	)
 	(global_label "3.3V"
-		(shape input)
+		(shape output)
 		(at 88.9 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7005,8 +7153,8 @@
 			)
 		)
 	)
-	(global_label "GPIO16"
-		(shape passive)
+	(global_label "GPIO21"
+		(shape bidirectional)
 		(at 88.9 176.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7017,7 +7165,7 @@
 		)
 		(uuid "33bfcaa8-e83c-429b-a9fb-f70b68e5552f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6682 176.53 0)
+			(at 99.8908 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7176,7 @@
 		)
 	)
 	(global_label "GPIO17"
-		(shape passive)
+		(shape bidirectional)
 		(at 245.11 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7039,7 +7187,7 @@
 		)
 		(uuid "40e32449-8cc1-419c-9b37-3b38b1c0b6d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3418 120.65 0)
+			(at 234.1192 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7242,7 @@
 		)
 	)
 	(global_label "GPIO17"
-		(shape passive)
+		(shape bidirectional)
 		(at 88.9 173.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7105,7 +7253,7 @@
 		)
 		(uuid "49892316-cc24-41d1-87f6-a0e964bca907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6682 173.99 0)
+			(at 99.8908 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7440,7 @@
 		)
 	)
 	(global_label "GPIO14"
-		(shape passive)
+		(shape bidirectional)
 		(at 209.55 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7303,7 +7451,7 @@
 		)
 		(uuid "5a348afc-e816-4a09-acdf-1b5ed5b2093e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.7818 120.65 0)
+			(at 198.5592 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7484,7 @@
 		)
 	)
 	(global_label "GPIO13"
-		(shape passive)
+		(shape bidirectional)
 		(at 29.21 168.91 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7347,7 +7495,7 @@
 		)
 		(uuid "5e520c3c-bd72-42c1-9086-244a26186f19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4418 168.91 0)
+			(at 18.2192 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7506,7 @@
 		)
 	)
 	(global_label "GPIO19"
-		(shape passive)
+		(shape bidirectional)
 		(at 88.9 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7369,7 +7517,7 @@
 		)
 		(uuid "5fe2b62a-bc97-4abd-9acb-e4b4b6624ab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6682 166.37 0)
+			(at 99.8908 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +7550,7 @@
 		)
 	)
 	(global_label "GPIO20"
-		(shape passive)
+		(shape bidirectional)
 		(at 88.9 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7413,7 +7561,7 @@
 		)
 		(uuid "62a201a5-46a7-4c08-8b82-9345589e5c5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6682 163.83 0)
+			(at 99.8908 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,7 +7572,7 @@
 		)
 	)
 	(global_label "GPIO15"
-		(shape passive)
+		(shape bidirectional)
 		(at 29.21 176.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7435,7 +7583,7 @@
 		)
 		(uuid "64f976ed-b6f1-44db-a854-3d07701b06bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4418 176.53 0)
+			(at 18.2192 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7638,7 @@
 		)
 	)
 	(global_label "GPIO19"
-		(shape passive)
+		(shape bidirectional)
 		(at 245.11 113.03 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7501,7 +7649,7 @@
 		)
 		(uuid "6b51c8dc-5f37-4a5e-9d22-323e4feb7d3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3418 113.03 0)
+			(at 234.1192 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7704,7 @@
 		)
 	)
 	(global_label "GPIO13"
-		(shape input)
+		(shape bidirectional)
 		(at 209.55 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7567,7 +7715,7 @@
 		)
 		(uuid "754c86dc-b824-4b6a-8552-77f47f95ec41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.6705 115.57 0)
+			(at 198.5592 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7770,7 @@
 		)
 	)
 	(global_label "GPIO20"
-		(shape passive)
+		(shape bidirectional)
 		(at 245.11 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7633,7 +7781,7 @@
 		)
 		(uuid "7f3ea160-35af-4795-ba8f-8b7b1e868b55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3418 110.49 0)
+			(at 234.1192 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7858,7 @@
 		)
 	)
 	(global_label "GPIO18"
-		(shape passive)
+		(shape bidirectional)
 		(at 88.9 168.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7721,7 +7869,7 @@
 		)
 		(uuid "946dfa5e-3c71-4dde-9b9e-45744dd147d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6682 168.91 0)
+			(at 99.8908 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,7 +7924,7 @@
 		)
 	)
 	(global_label "GPIO21"
-		(shape passive)
+		(shape bidirectional)
 		(at 88.9 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7787,7 +7935,7 @@
 		)
 		(uuid "a2105dbf-3b2d-4e70-b6cc-d8947556b8a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.6682 161.29 0)
+			(at 99.8908 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,7 +8012,7 @@
 		)
 	)
 	(global_label "GPIO21"
-		(shape passive)
+		(shape bidirectional)
 		(at 245.11 107.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7875,7 +8023,7 @@
 		)
 		(uuid "ac023fc0-694d-47cf-b2e9-c5b90e8ef328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3418 107.95 0)
+			(at 234.1192 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8144,7 @@
 		)
 	)
 	(global_label "GPIO14"
-		(shape passive)
+		(shape bidirectional)
 		(at 29.21 173.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8007,7 +8155,7 @@
 		)
 		(uuid "c284a03f-eecd-4ff7-b1d7-7a518bacbc39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4418 173.99 0)
+			(at 18.2192 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8342,7 @@
 		)
 	)
 	(global_label "GPIO16"
-		(shape passive)
+		(shape bidirectional)
 		(at 245.11 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8205,7 +8353,7 @@
 		)
 		(uuid "d2e0a071-fbb0-491c-bef7-152ce50f5e11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3418 123.19 0)
+			(at 234.1192 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8452,7 @@
 		)
 	)
 	(global_label "GPIO15"
-		(shape passive)
+		(shape bidirectional)
 		(at 209.55 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8315,7 +8463,7 @@
 		)
 		(uuid "e5ac5931-80d8-4364-a974-aedaaa901d55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.7818 123.19 0)
+			(at 198.5592 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,6 +10223,73 @@
 			(project "Placa_de_Desarrollo"
 				(path "/fcc0771d-888f-40a3-a42c-2cc7ec6c456b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 143.51 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4635b71f-4438-45d1-b27e-f9f644507abf")
+		(property "Reference" "#FLG02"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 139.7 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e7ff370-b2a4-4ec3-ae1b-cfa41aaa326a")
+		)
+		(instances
+			(project "Placa_de_Desarrollo"
+				(path "/fcc0771d-888f-40a3-a42c-2cc7ec6c456b"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -13105,6 +13320,72 @@
 			(project "Placa_de_Desarrollo"
 				(path "/fcc0771d-888f-40a3-a42c-2cc7ec6c456b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 172.72 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdb557a4-a35a-49b1-9476-3ed60491b7c2")
+		(property "Reference" "#FLG01"
+			(at 172.72 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "166e032d-165e-47e7-a780-e85c27b2b90d")
+		)
+		(instances
+			(project "Placa_de_Desarrollo"
+				(path "/fcc0771d-888f-40a3-a42c-2cc7ec6c456b"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
