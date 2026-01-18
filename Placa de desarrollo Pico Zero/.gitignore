@@ -1,0 +1,11 @@
+# Ignorar la carpeta de dependencias de Node
+Placa de desarrollo Pico Zero-backups/
+
+# Ignorar archivos de configuración local (con claves secretas)
+#.env
+
+# Ignorar archivos temporales del sistema (Mac)
+#.DS_Store
+
+# Ignorar reportes de logs
+#*.log
