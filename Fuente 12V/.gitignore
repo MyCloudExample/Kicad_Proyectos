@@ -1,0 +1,10 @@
+#Carpetas ignoradas
+Fuente 12V-backups
+#Archivos ingnorados
+fp-info-cache
+#Archivos temporales
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*-save.kicad_pcb
+fp-info-cache
