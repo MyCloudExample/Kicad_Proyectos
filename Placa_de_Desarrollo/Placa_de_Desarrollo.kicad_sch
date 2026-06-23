@@ -7153,7 +7153,7 @@
 			)
 		)
 	)
-	(global_label "GPIO21"
+	(global_label "GPIO16"
 		(shape bidirectional)
 		(at 88.9 176.53 0)
 		(fields_autoplaced yes)

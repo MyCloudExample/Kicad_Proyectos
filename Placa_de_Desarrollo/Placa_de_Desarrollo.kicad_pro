@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|205209000|79332000|c76eb61e-d3c7-4aa4-8e82-fd11bd04c9cb|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|205209000|98098800|ce6e4d05-c2ad-47c9-85e1-59d0720d5dda|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|205234000|60884000|b7383200-74fd-497b-81b9-c22c401a409f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -490,7 +494,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../",
+      "plot": "../../../../Gerber/",
       "pos_files": "",
       "specctra_dsn": "../../../../Placa_de_Desarrollo.dsn",
       "step": "",
@@ -607,7 +611,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../",
+    "plot_directory": "../../../../",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
